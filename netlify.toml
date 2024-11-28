@@ -1,0 +1,7 @@
+[build]
+  base = "."
+  publish = "/"
+  functions = "src/functions"
+
+[[plugins]]
+  package = "@netlify/plugin-functions-core"
